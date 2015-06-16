@@ -4,6 +4,6 @@ console.log('Loading event again');
 exports.handler = function(event, context) {
     console.log('Who = ' + event.key1);
     console.log('is = ' + event.key2);
-    console.log('great = ' + event.key3);
+    console.log('greaaaaat? = ' + event.key3);
     context.done(null, 'Hello World');  // SUCCESS with message
 };
